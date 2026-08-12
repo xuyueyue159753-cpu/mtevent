@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIMOON Star Host Recruitment</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --white: #ffffff;
+            --accent: #f59e0b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding-bottom: 40px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            color: white;
+            border-radius: 24px;
+            margin-bottom: 30px;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Sections */
+        h2 {
+            font-size: 1.5rem;
+            margin: 40px 0 20px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 20px;
+            border-radius: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+
+        .direction-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .emoji {
+            font-size: 1.5rem;
+        }
+
+        .example {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            display: block;
+            margin-top: 4px;
+            font-style: italic;
+        }
+
+        /* Requirements & Rewards */
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .reward-highlight {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 50px;
+            padding: 30px;
+            background: var(--white);
+            border-radius: 16px;
+            text-align: center;
+        }
+
+        a.whatsapp-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background: #25d366;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <h1>MIMOON is looking for Star Host who can create quality content.</h1>
+            <p>Join official shows and get identity, income, and exposure.</p>
+        </header>
+
+        <section>
+            <h2>Content Direction</h2>
+            <div class="card">
+                <div class="direction-item"><span class="emoji">💄</span> <strong>Makeup Tutorial</strong></div>
+                <span class="example">Example: “Teach a simple daily makeup in 3 minutes (step by step)”</span>
+            </div>
+            <div class="card">
+                <div class="direction-item"><span class="emoji">💬</span> <strong>Talk & Support</strong></div>
+                <span class="example">Example: “How I would comfort someone after a breakup (simulate a chat)”</span>
+            </div>
+            <div class="card">
+                <div class="direction-item"><span class="emoji">🎓</span> <strong>Talent Teaching</strong></div>
+                <span class="example">Example: “Teach an easy vocal technique (with explanation + demo)”</span>
+            </div>
+            <div class="card">
+                <div class="direction-item"><span class="emoji">✨</span> <strong>Special Content</strong></div>
+                <span class="example">Example: “3 simple tips for new streamers to keep viewers”</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>How to Join</h2>
+            <div class="card">
+                <p>Submit an audition video for official review. Cooperation will be available upon approval.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Video Requirements</h2>
+            <div class="card">
+                <p><strong>Length: 1–3 minutes</strong></p>
+                <ul>
+                    <li>Clear, with explanation and structure</li>
+                    <li>Start: Who you are + what you will share</li>
+                    <li>Middle: Main content (teaching/sharing)</li>
+                    <li>End: Simple summary</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>What You Get</h2>
+            <div class="card">
+                <ul>
+                    <li class="reward-highlight">💰 $2 per show</li>
+                    <li>🎁 Super Idol badge</li>
+                    <li>📢 Official exposure opportunities</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>For audition videos or any questions, please contact us WhatsApp: +86 13761538847</p>
+            <a href="https://wa.me/8618646390081" class="whatsapp-link">Chat on WhatsApp</a>
+        </footer>
+    </div>
+</body>
+</html>
